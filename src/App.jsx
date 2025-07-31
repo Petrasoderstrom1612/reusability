@@ -12,7 +12,9 @@ function App() {
         <FaMoneyBill />
         Buy now!
       </Button>
+      <div>
       {/* <Marquee text="🧛‍♀️ Welcome to Horrorville 🧛‍♀️" /> */}
+      </div>
     </>
   )
 }
