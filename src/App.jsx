@@ -6,10 +6,14 @@ import { FaMoneyBill } from "react-icons/fa";
 
 function App() {
 
+  const displayText = () => {
+    console.log("buying...")
+  }
+
   return (
     <>
-      <Button>
-        <FaMoneyBill />
+      <Button buyConsole={displayText}>
+        <FaMoneyBill/>
         Buy now!
       </Button>
       <div>

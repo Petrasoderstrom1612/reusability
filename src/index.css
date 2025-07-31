@@ -100,4 +100,14 @@ button {
     padding: 9px 17px;
     border-radius: 6px;
     line-height: 24px;
+    display: flex;
+    font-size: 16px;;
+}
+
+/* MONEY ICON*/
+button > svg { /*We style it as svg*/
+    margin-right: 7px;
+    color: green;
+    height: 20px;
+    width: 20px;
 }
