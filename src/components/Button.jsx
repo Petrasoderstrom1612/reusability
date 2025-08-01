@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Button = ({buyConsole, children}) => {
+const Button = (props) => {
+  console.log(props)
   return (
     <>
-    <button onClick={buyConsole}>{children}</button>
+    {/* <button onClick={props.buyConsole}>{props.children}</button> */}
+    <button {...props}>{props.children}</button>
     </>
   )
 }
