@@ -104,10 +104,23 @@ button {
     font-size: 16px;;
 }
 
+button.button-small {
+    padding: 7px 11px;
+    font-size: 12px;
+}
+
+button.button-large {
+    padding: 30px 40px;
+}
+
 /* MONEY ICON*/
 button > svg { /*We style it as svg*/
     margin-right: 7px;
     color: green;
     height: 20px;
     width: 20px;
+}
+
+.green{
+    color:green;
 }

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Button from './components/Button'
+import Google from './components/Google'
 import Marquee from './components/Marquee'
 import { FaMoneyBill } from "react-icons/fa";
 
@@ -17,10 +18,10 @@ function App() {
         <FaMoneyBill/>
         Buy now!
       </Button>
-      <Button>
-        <img alt="google" src="https://images.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
+      <Google size="lg" className="green">
+        <img alt="google" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/%28at%29.svg/50px-%28at%29.svg.png"/>
         Google it here
-      </Button>
+      </Google>
       <div>
       {/* <Marquee text="🧛‍♀️ Welcome to Horrorville 🧛‍♀️" /> */}
       </div>
