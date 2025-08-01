@@ -104,12 +104,12 @@ button {
     font-size: 16px;;
 }
 
-button.button-small {
+button.sm {
     padding: 7px 11px;
     font-size: 12px;
 }
 
-button.button-large {
+button.lg {
     padding: 30px 40px;
 }
 
