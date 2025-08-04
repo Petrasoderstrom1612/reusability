@@ -130,7 +130,7 @@ button > svg { /*We style it as svg*/
     box-sizing: border-box;
 }
 
-:root {
+:root { /* A NICE WAY TO DECLARE COLORS THAT WILL BE REUSED IN CSS */
     --navy: #1F2937;
     --pink: #DA6AEC;
     --red: #F43F5E;
@@ -158,7 +158,7 @@ body {
 }
 
 .avatar-letters {
-    background-color: var(--red);
+    background-color: var(--red); /* APPLICATION OF THE REUSABLE COLORS*/
     color: white;
     display: flex;
     align-items: center;
