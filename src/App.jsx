@@ -20,13 +20,11 @@ function App() {
         <FaMoneyBill/>
         Buy now!
       </Button>
+
       <Google size="lg" className="green">
         <img alt="google" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/%28at%29.svg/50px-%28at%29.svg.png"/>
         Google it here
       </Google>
-      <div>
-      {/* <Marquee text="🧛‍♀️ Welcome to Horrorville 🧛‍♀️" /> */}
-      </div>
 
       <>
       <Avatar className="avatar" src={profile} alt="Bob Ziroll" />
@@ -35,6 +33,10 @@ function App() {
       <br />
       <Avatar/>
       </>
+
+      <div>
+      {/* <Marquee text="🧛‍♀️ Welcome to Horrorville 🧛‍♀️" /> */}
+      </div>
     </>
   )
 }
