@@ -2,7 +2,9 @@ import { useState } from 'react'
 import Button from './components/Button'
 import Google from './components/Google'
 import Marquee from './components/Marquee'
+import Avatar from './components/Avatar'
 import { FaMoneyBill } from "react-icons/fa";
+import profile from "./assets/profile.webp"
 
 
 function App() {
@@ -25,6 +27,14 @@ function App() {
       <div>
       {/* <Marquee text="🧛‍♀️ Welcome to Horrorville 🧛‍♀️" /> */}
       </div>
+
+      <>
+      <Avatar className="avatar" src={profile} alt="Bob Ziroll" />
+      <br />
+      <Avatar>BZ</Avatar>
+      <br />
+      <Avatar/>
+      </>
     </>
   )
 }
