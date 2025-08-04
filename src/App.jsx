@@ -20,11 +20,13 @@ function App() {
         <FaMoneyBill/>
         Buy now!
       </Button>
+      <br />
 
-      <Google size="lg" className="green">
-        <img alt="google" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/%28at%29.svg/50px-%28at%29.svg.png"/>
-        Google it here
-      </Google>
+      <Google>Log in with Google</Google>
+      <Google size="lg" variant="success">Log in with Google</Google>
+      <Google size="sm" variant="warning">Log in with Google</Google>
+      <Google size="sm" variant="danger">Log in with Google</Google>
+      <br />
 
       <>
       <Avatar className="avatar" src={profile} alt="Bob Ziroll" />
